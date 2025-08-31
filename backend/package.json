@@ -4,8 +4,8 @@
   "description": "Profile management API with CRUD operations",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node init && node index.js",
+    "dev": "node init && nodemon index.js",
     "seed": "node seed.js"
   },
   "dependencies": {
@@ -17,7 +17,13 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["profile", "crud", "api", "mongodb", "express"],
+  "keywords": [
+    "profile",
+    "crud",
+    "api",
+    "mongodb",
+    "express"
+  ],
   "author": "Arsh Gupta",
   "license": "MIT"
 }
